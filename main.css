@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+background-color:#fff;
+font-family: 'Fredoka One', cursive;
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    height: 300px;
+    width: 400px;
+    margin: 0 auto;
+    background-color: #ff7979;
+}
+img{
+    padding: 10px;
+    height: 100px;
+    width: 100px;
+}
+header{
+    text-align: center;
+    background-color: #ff7979;
+    color: #fff;
+    padding-top: 40px;
+}
+.instructions{
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 1.8rem;
+    padding-bottom: 30px;
+    color:#ff7979; 
+
+}
+.score-box{
+    margin: 0 auto;
+    width: 400px;
+    height: 100px;
+    text-align: center;
+    font-size: 3.2rem;
+    color: #ff7979;
+    
+}
